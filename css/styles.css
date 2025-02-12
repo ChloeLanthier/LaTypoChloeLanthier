@@ -1,8 +1,149 @@
+/*----------------------------------------------------------
+    RESET
+------------------------------------------------------------*/
+
+html{
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+/*----------------------------------------------------------
+    BASE
+------------------------------------------------------------*/
+
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: white;
+    font-family: "Roboto", serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*----------------------------------------------------------
+    COMPONENTS
+------------------------------------------------------------*/
+
+/*-------header------*/
+
+header{
+    background-color: #34495E;
+    margin-bottom: 40px;
+}
+
+header h1{
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: 96px;
+    letter-spacing: 30px;
+    padding: 60px 165px 60px 165px;
+    margin: 0px;
+}
+
+/*-------slogan------*/
+
+.slogan h2{
+    font-family: "Lato", serif;
+    font-weight: 50;
+    font-size: 48px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*-------regle------*/
+
+.regle .wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.regle article{
+    display: flex;
+    align-items: center;
+}
+
+.regle .inverse{
+    flex-direction: row-reverse;
+}
+
+.regle{
+    font-family: "Quicksand", serif;
+    color: black;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.regle .rond{
+    color: #d35400;
+    width: 200px;
+    height: 200px;
+    border: 3px solid ;
+    border-radius: 100px;
+    font-weight: 500;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.regle a{
+    color: black;
+}
+
+.regle a:hover{
+    background-color: #BDC3C7;
+}
+
+/*-------info------*/
+
+.info .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*-------footer------*/
+
+footer{
+    background-color: #2980B9;
+}
+
+footer .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p{
+    color: black;
+    font-weight: 800;
+}
+
+footer a{
+    color: black;
+}
 
 .material-symbols-outlined {
+    font-size: 40px;
   font-variation-settings:
   'FILL' 0,
-  'wght' 400,
+  'wght' 300,
   'GRAD' 0,
   'opsz' 24
 }
